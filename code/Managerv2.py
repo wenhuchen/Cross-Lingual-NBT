@@ -46,7 +46,6 @@ class BeliefTracker(object):
         # Get training details
         self.max_iteration = int(self.config.get("train", "max_iteration"))
         self.batch_size = int(self.config.get("train", "batch_size"))
-        self.exp_name = self.config.get("data", "exp_name")
         self.language = self.config.get("model", "language")
         self.id = self.config.get('model', 'id')
         self.restore_id = self.config.get('model', 'restore_id')
