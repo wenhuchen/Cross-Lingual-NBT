@@ -42,6 +42,14 @@ learn_belief_state_update=True
 tau=0.1
 ```
 
+## Learning Curve
+
+![XL-NBT-D]
+(learning-curve-D.pdf)
+
+![XL-NBT-C]
+(learning-curve-C.pdf "XL-NBT-C")
+
 
 ## Usage
 ### 1. Setup
@@ -50,6 +58,8 @@ Clone this github repository recursively:
 ```
 git clone https://github.com/wenhuchen/Cross-Lingual-NBT.git ./
 ```
+Please Download the [Bilingual embedding](https://drive.google.com/drive/folders/1gwXnZtDPDmnIWu9mryktWBojE9JvT4mg?usp=sharing) and put them into **word-vectors/** folder
+
 ### 2. Supervised Learning
 We use cross entropy loss to train the teacher model, please set "id=teacher-bilingual" and "restore=False" in the config file.
 
