@@ -45,10 +45,10 @@ tau=0.1
 ## Learning Curve
 
 ![XL-NBT-D]
-(learning-curve-D.pdf)
+(https://github.com/wenhuchen/Cross-Lingual-NBT/blob/master/XL-NBT-C.png)
 
 ![XL-NBT-C]
-(learning-curve-C.pdf "XL-NBT-C")
+(https://github.com/wenhuchen/Cross-Lingual-NBT/blob/master/XL-NBT-D.png)
 
 
 ## Usage
