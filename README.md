@@ -3,7 +3,7 @@ Code for EMNLP 2018 paper "XL-NBT: A Cross-lingual Neural Belief Tracking Framew
 
 In this paper, we propose the interesting cross-lingual state tracking problem and design a simple yet very efficient algorithm to tackle it. This repository contains all the experiment codes for both En->De and En->It transfer scenarios under two different parallel resource cases.
 
-For more details, please check the latest version of the paper: ???
+For more details, please check the latest version of the paper: [https://128.84.21.199/abs/1808.06244](https://128.84.21.199/abs/1808.06244).
 
 
 ## Prerequisites
@@ -85,11 +85,6 @@ We use teacher-student framework to transfer knowledge across language boundary,
 ./train.sh dict_transfer
 ```
 
-## If you find this code useful, please cite the paper
-
-```
-???
-```
 
 ## Acknowledgement
 
