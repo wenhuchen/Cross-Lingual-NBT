@@ -5,6 +5,14 @@ In this paper, we propose the interesting cross-lingual state tracking problem a
 
 For more details, please check the latest version of the paper: [https://128.84.21.199/abs/1808.06244](https://128.84.21.199/abs/1808.06244).
 
+The general architecture of the model is displayed as below:
+
+<p>
+<img src="NBT-new.png" width="600">
+</p>
+
+We decompose the transfer into two components, language understanding level transfer and ontology transfer.
+
 
 ## Prerequisites
 1. Python 2.7
@@ -83,6 +91,17 @@ We use teacher-student framework to transfer knowledge across language boundary,
 
 ```
 ./train.sh dict_transfer
+```
+
+If you find this paper useful, please this paper with the following bibtex
+```
+@inproceedings{chen2018xl,
+  title={XL-NBT: A Cross-lingual Neural Belief Tracking Framework},
+  author={Chen, Wenhu and Chen, Jianshu and Su, Yu and Wang, Xin and Yu, Dong and Yan, Xifeng and Wang, William Yang},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  pages={414--424},
+  year={2018}
+}
 ```
 
 
