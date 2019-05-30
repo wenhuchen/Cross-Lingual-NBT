@@ -8,7 +8,7 @@ For more details, please check the latest version of the paper: [https://128.84.
 The general architecture of the model is displayed as below:
 
 <p>
-<img src="NBT-new.png" width="900">
+<img src="NBT-new.png" width="800">
 </p>
 
 We decompose the transfer into two components, language understanding level transfer and ontology transfer.
