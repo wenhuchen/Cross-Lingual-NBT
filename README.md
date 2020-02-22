@@ -1,4 +1,6 @@
 # Cross-Lingual-NBT
+[News]: Just fixed the ontology problem, now the code should be able to run.
+
 Code for EMNLP 2018 paper "XL-NBT: A Cross-lingual Neural Belief Tracking Framework"
 
 In this paper, we propose the interesting cross-lingual state tracking problem and design a simple yet very efficient algorithm to tackle it. This repository contains all the experiment codes for both En->De and En->It transfer scenarios under two different parallel resource cases.
